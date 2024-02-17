@@ -1,0 +1,5 @@
+Apa itu merge conflict dan cara menanggulanginya
+
+- Merge conflict adalah Permasalahan merging yang terjadi ketika kita dan orang lain melakukan perubahan pada baris yang sama dan di file yang sama dalam branch yang berbeda. 
+
+- Cara menanggulanginya adalah dengan melakukan merge secara manual. Kita dapat memilih perubahan yang kita inginkan yang akan di merge ke dalam branch utama.
