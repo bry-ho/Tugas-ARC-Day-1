@@ -1,5 +1,4 @@
 Apa itu git rebase
 
 - Git rebase adalah perintah yang digunakan dalam git untuk memudahkan kita dalam memodifikasi commit yang telah dilakukan dan akan berpengaruh terhadap history dari repository. Modifikasi commit dapat berupa mengubah pesan pada commit, menggabungkan beberapa commit menjadi satu, dan juga menghapus commit yang tidak lagi dibutuhkan. 
-
 - Penggunaan git rebase seringkali untuk menghindari adanya three-way merge. Sebagai contoh, apabila pada branch master terdapat 2 branch lainnya dan kita melakukan merging (menggunakan perintah git merge) antara branch tersebut, maka yang terjadi adalah three-way merge (melakukan merge dan menghasilkan commit yang baru). Dengan git rebase, kita dapat memindahkan branch tersebut agar sejajar dengan branch master sehingga saat merging dilakukan, yang terjadi adalah fast-forward merge (melakukan merge tanpa adanya commit yang baru). Perbedaannya adalah pada history repository kita, saat menggunakan git rebase akan tampak lebih sederhana dibandingkan dengan git merge.
